@@ -1,0 +1,28 @@
+img {
+  width: 150px;
+  height: 150px;
+  float: left;
+  margin: 3px 10px 3px 0;
+}
+
+.img-container {
+  @extend img;
+  margin-left: 25px;
+
+  img {
+    width: 100%;
+    height: 100%;
+
+    &:nth-child(2) {
+      display: none;
+    }
+  }
+
+  &:hover > img {
+    display: none;
+  }
+
+  &:hover img:nth-child(2) {
+    display: block;
+  }
+}

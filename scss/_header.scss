@@ -1,0 +1,96 @@
+.header {
+  font-family: $default-sans-serif-font;
+  
+  i {
+    position: relative;
+    top: 0;
+    left: 0;
+    font-size: 50px;
+    color: $pink;
+    padding: 10px;
+    display: block;
+    
+    &:hover {
+      cursor: pointer;
+    }
+    
+    @media (min-width: 800px) {
+      display: none;
+    }
+  }
+}
+
+.nav {
+  z-index: 999;
+  @media (max-width: 799px) {
+    @include prefix(box-shadow, 1px 2px 1px lighten($black,40%), moz webkit);
+    position: absolute;
+  }
+  
+  a {
+    text-transform: lowercase;
+    text-align: center;
+    background: $white;
+    width: $max-width / 6;
+    color: $black;
+    display: inline-block;
+    border-bottom: solid 12px;
+    padding: 25px 0;
+    
+    &:hover, &.selected {
+      color: $white;
+    }
+    
+    &:nth-of-type(6n+1) {
+      border-color: darken($pink,10%);
+      &:hover, &.selected {
+        background: $pink;
+      }
+    }
+    
+    &:nth-of-type(6n+2) {
+      border-color: darken($orange,10%);  
+      &:hover, &.selected {
+        background: $orange;
+      }
+    }
+      
+    &:nth-of-type(6n+3) {
+      border-color: darken($yellow,10%);
+      &:hover, &.selected {
+        background: $yellow;
+      }
+    }
+      
+    &:nth-of-type(6n+4) {
+      border-color: darken($turquoise,10%);
+      &:hover, &.selected {
+        background: $turquoise;
+      }
+    }
+      
+    &:nth-of-type(6n+5) {
+      border-color: darken($blue,10%);
+      &:hover, &.selected {
+        background: $blue;
+      }
+    }
+    
+    &:nth-of-type(6n+6) {
+      border-color: darken($blue,20%);
+      &:hover, &.selected {
+        background: darken($blue,14%);
+      }
+    }
+    
+    @media (max-width: 799px) {
+      display: block;
+      text-align: left;
+      width: 200px;
+      margin-top: 0;
+      border-bottom: none;
+      border-left: solid 15px;
+      padding: 20px;
+    }
+  }
+}

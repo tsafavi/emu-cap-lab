@@ -1,0 +1,9 @@
+@mixin center($width) {
+  width: $width;
+  margin-left: (100% - $width) / 2;
+}
+
+$max-width: 100%;
+$content-width: 60%;
+$two-col-nav-width: 25%;
+$two-col-posts-width: 98% - $two-col-nav-width;

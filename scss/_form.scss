@@ -1,0 +1,121 @@
+input {
+  outline: none;
+  border: solid 1px lighten($black, 60%);
+  margin-right: 5px;
+  padding: 5px;
+}
+
+.wpcf7-text {
+  @extend input;
+  width: 70%;
+  display: block;
+
+  @media (max-width: 799px) {
+    width: 100%;
+  }
+}
+
+textarea {
+  @extend .wpcf7-text;
+}
+
+.wpcf7-textarea {
+  @extend textarea;
+}
+
+.wpcf7-submit {
+  @extend .wpcf7-text;
+  background: $blue;
+  border: none;
+  color: $white;
+}
+
+.required {
+  color: $pink;
+}
+
+.addon {
+  color: lighten($black, 30%);
+  font-size: .9em;
+}
+
+div.wpcf7 {
+  margin: 0;
+  padding: 0;
+}
+
+div.wpcf7-response-output {
+  margin: 2em 0.5em 1em;
+  padding: 0.2em 0;
+}
+
+div.wpcf7 .screen-reader-response {
+	position: absolute;
+	overflow: hidden;
+	clip: rect(1px, 1px, 1px, 1px);
+	height: 1px;
+	width: 1px;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+span.wpcf7-form-control-wrap {
+	position: relative;
+}
+
+span.wpcf7-not-valid-tip {
+	color: $pink;
+	font-size: 1em;
+	display: block;
+}
+
+.before-icons {
+  font: 2em FontAwesome;
+  margin-right: 5px;
+}
+
+.wpcf7-validation-errors:before {
+  @extend .before-icons;
+  content: "\f071";
+  color: $yellow;
+}
+
+.wpcf7-mail-sent-ok:before {
+  @extend .before-icons;
+  content: "\f00c";
+  color: $turquoise;
+}
+
+.use-floating-validation-tip span.wpcf7-not-valid-tip { 
+	position: absolute;
+	top: 20%;
+	left: 20%;
+	z-index: 100;
+	border: 0px solid #ff0000;
+	background: #fff;
+	padding: .2em .8em;
+}
+
+span.wpcf7-list-item {
+	margin-left: 0.5em;
+}
+
+.wpcf7-display-none {
+	display: none;
+}
+
+div.wpcf7 img.ajax-loader {
+	border: none;
+	vertical-align: middle;
+	margin-left: 4px;
+}
+
+div.wpcf7 div.ajax-error {
+	display: none;
+}
+
+div.wpcf7 .placeheld {
+	color: #888;
+}
+

@@ -1,0 +1,23 @@
+.sidebar {
+  width: $two-col-nav-width;
+  float: left;
+  padding-top: 20px;
+  
+  b {
+    display: block;
+    font-family: $default-sans-serif-font;
+    margin-bottom: 10px;
+  }
+  
+  ul li {
+    padding: 5px 0;
+    border-bottom: solid 1px lighten($black,60%);
+  }
+    
+  @media (max-width: 799px) {
+    position: relative;
+    display: block;
+    width: $max-width;
+    padding: 20px;
+  }
+}
