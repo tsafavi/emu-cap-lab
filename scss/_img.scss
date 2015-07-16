@@ -25,4 +25,8 @@ img {
   &:hover img:nth-child(2) {
     display: block;
   }
+
+  @media (max-width: 799px) {
+    margin-left: 5px;
+  }
 }

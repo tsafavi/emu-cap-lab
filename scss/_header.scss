@@ -1,6 +1,4 @@
 .header {
-  font-family: $default-sans-serif-font;
-  
   i {
     position: relative;
     top: 0;
@@ -28,13 +26,14 @@
   }
   
   a {
-    text-transform: lowercase;
+    font: .9em $default-sans-serif-font;
     text-align: center;
     background: $white;
     width: $max-width / 6;
     color: $black;
     display: inline-block;
-    border-bottom: solid 12px;
+    letter-spacing: 1px;
+    border-bottom: solid 9px;
     padding: 25px 0;
     
     &:hover, &.selected {
@@ -42,44 +41,44 @@
     }
     
     &:nth-of-type(6n+1) {
-      border-color: darken($pink,10%);
+      border-color: darken($pink,8%);
       &:hover, &.selected {
         background: $pink;
       }
     }
     
     &:nth-of-type(6n+2) {
-      border-color: darken($orange,10%);  
+      border-color: darken($orange,5%);  
       &:hover, &.selected {
         background: $orange;
       }
     }
       
     &:nth-of-type(6n+3) {
-      border-color: darken($yellow,10%);
+      border-color: darken($yellow,8%);
       &:hover, &.selected {
         background: $yellow;
       }
     }
       
     &:nth-of-type(6n+4) {
-      border-color: darken($turquoise,10%);
+      border-color: darken($emerald,5%);
       &:hover, &.selected {
-        background: $turquoise;
+        background: $emerald;
       }
     }
       
     &:nth-of-type(6n+5) {
-      border-color: darken($blue,10%);
+      border-color: darken($turquoise,5%);
       &:hover, &.selected {
-        background: $blue;
+        background: $turquoise;
       }
     }
     
     &:nth-of-type(6n+6) {
-      border-color: darken($blue,20%);
+      border-color: darken($blue,5%);
       &:hover, &.selected {
-        background: darken($blue,14%);
+        background: $blue;
       }
     }
     

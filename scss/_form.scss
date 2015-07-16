@@ -25,7 +25,8 @@ textarea {
 
 .wpcf7-submit {
   @extend .wpcf7-text;
-  background: $blue;
+  font-family: $default-sans-serif-font;
+  background: $black;
   border: none;
   color: $white;
 }

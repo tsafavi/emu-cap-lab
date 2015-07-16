@@ -1,7 +1,7 @@
 <?php if ( have_posts() ) : ?>
 <div class="sidebar">
   <?php if ( !is_single() && !is_preview() ) : ?>
-  <b><?php wp_title(''); ?></b>
+  <div class="title"><?php wp_title(''); ?></div>
   <?php endif; ?>
 
   <ul>

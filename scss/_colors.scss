@@ -1,8 +1,9 @@
-$pink: #E53935;
-$orange: #D06503;
-$yellow: #E9931A;
+$pink: #E45635;
+$orange: lighten(#D06503,10%);
+$yellow: lighten(#E9931A,10%);
+$emerald: #009B77;
 $turquoise: #1691BE;
-$blue: #34699D;
+$blue: lighten(#34699D,10%);
 $white: #FFFFFF;
 $black: #333333;
 $body-bg: $white;

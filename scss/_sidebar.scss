@@ -3,9 +3,9 @@
   float: left;
   padding-top: 20px;
   
-  b {
+  .title {
     display: block;
-    font-family: $default-sans-serif-font;
+    font: 1.2em $default-sans-serif-font;
     margin-bottom: 10px;
   }
   
