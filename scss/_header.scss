@@ -76,7 +76,7 @@
     }
     
     &:nth-of-type(6n+6) {
-      border-color: darken($blue,5%);
+      border-color: darken($blue,12%);
       &:hover, &.selected {
         background: $blue;
       }
