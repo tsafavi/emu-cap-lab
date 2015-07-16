@@ -14,10 +14,11 @@ $(document).ready(function() {
     var a_href = this.href.trim(),
         first_dir = window.location.pathname.split('/')[1],
         url = window.location.protocol + "//" + window.location.host + "/" + first_dir;
-		
-    if (a_href == url || 
-        a_href == url + "/" || 
-        (this.pathname == "/" && first_dir == 'about')) {
+  
+  if (a_href == window.location ||
+      a_href == url || 
+      a_href == url + "/" || 
+      (this.pathname == "/" && first_dir == 'about')) {
       $(this).addClass('selected');
     }
   });
