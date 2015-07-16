@@ -33,7 +33,7 @@
     color: $black;
     display: inline-block;
     letter-spacing: 1px;
-    //border-bottom: solid 9px;
+    border-bottom: solid 9px;
     padding: 25px 0;
     
     &:hover, &.selected {
@@ -41,44 +41,44 @@
     }
     
     &:nth-of-type(6n+1) {
-      color: darken($pink,8%);
+      border-color: darken($pink,8%);
       &:hover, &.selected {
-        background: $pink;
+        color: $pink;
       }
     }
     
     &:nth-of-type(6n+2) {
-      color: darken($orange,5%);  
+      border-color: darken($orange,5%);  
       &:hover, &.selected {
-        background: $orange;
+        color: $orange;
       }
     }
       
     &:nth-of-type(6n+3) {
-      color: darken($yellow,8%);
+      border-color: darken($yellow,8%);
       &:hover, &.selected {
-        background: $yellow;
+        color: $yellow;
       }
     }
       
     &:nth-of-type(6n+4) {
-      color: darken($emerald,5%);
+      border-color: darken($emerald,5%);
       &:hover, &.selected {
-        background: $emerald;
+        color: $emerald;
       }
     }
       
     &:nth-of-type(6n+5) {
-      color: darken($turquoise,5%);
+      border-color: darken($turquoise,5%);
       &:hover, &.selected {
-        background: $turquoise;
+        color: $turquoise;
       }
     }
     
     &:nth-of-type(6n+6) {
-      color: darken($blue,15%);
+      border-color: darken($blue,15%);
       &:hover, &.selected {
-        background: darken($blue,5%);
+        color: darken($blue,5%);
       }
     }
     
