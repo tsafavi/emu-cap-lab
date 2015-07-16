@@ -9,7 +9,7 @@ get_header(); ?>
     <h1>Whoops!</h1>
     <p>Unfortunately, the page you were looking for doesn't seem to exist.</p>
     <p>You could go back to <a href="javascript:history.back()">where you were</a>, 
-       or head to our <a href="<?php echo esc_url( home_url( '/' ) ); ?>">homepage</a>.</p>
+    or head to our <a href="<?php echo esc_url( home_url( '/' ) ); ?>">homepage</a>.</p>
   </div><!-- .one-col-post -->
 </div><!-- .one-col-content -->
 

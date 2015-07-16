@@ -26,15 +26,15 @@
   }
   
   a {
-    font: .9em $default-sans-serif-font;
+    font: .91em $default-sans-serif-font;
     text-align: center;
     background: $white;
     width: $max-width / 6;
     color: $black;
     display: inline-block;
-    letter-spacing: 1px;
+    letter-spacing: .05em;
     border-bottom: solid 9px;
-    padding: 25px 0;
+    padding: 20px 0;
     
     &:hover, &.selected {
       color: $white;

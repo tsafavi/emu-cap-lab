@@ -14,10 +14,10 @@ body {
 
 a {
   text-decoration: none;
-  color: $black;
+  color: $pink;
   
   &:hover {
-    color: $pink;
+    color: $black;
   }
 }
 
@@ -45,14 +45,14 @@ ul {
   text-align: center;
   margin: 100px 0 8% 0;
     
-  .caption {
-    font-size: .43em;
-    font-weight: 300;
-  }
-
   @media (max-width: 799px) {
     font-size: 3em;
   }
+}
+
+.caption {
+  font-size: .43em;
+  font-weight: 300;
 }
 
 p {
@@ -79,7 +79,7 @@ p {
   p {
     line-height: 1.8em;
   }
- }
+}
 
 .two-col-post {
   width: $two-col-posts-width;

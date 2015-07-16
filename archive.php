@@ -6,7 +6,7 @@ get_header(); ?>
 
 <div class="one-col-content">
   <div class="main-title">
-    Archive
+  Archive
   </div><!-- .main-title -->
 
   <?php $categories = array( 'about', 'team', 'studies', 'community', 'participate', 'join' );
