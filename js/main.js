@@ -15,7 +15,7 @@ $(document).ready(function() {
         first_dir = window.location.pathname.split('/')[1];
 
     if (first_dir == 'category') {
-      first_dir += '/' + window.location.pathname.split('/')[2];
+      first_dir = window.location.pathname.split('/')[2];
     }
 
     var url = window.location.protocol + "//" + window.location.host + "/" + first_dir;
