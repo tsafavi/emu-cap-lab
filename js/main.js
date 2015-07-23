@@ -12,12 +12,13 @@ $(document).ready(function() {
   
   $('.nav a').each(function(index) {
     var a_href = this.href.trim(),
-        first_dir = window.location.pathname.split('/')[1],
-        url = window.location.protocol + "//" + window.location.host + "/" + first_dir;
+        first_dir = window.location.pathname.split('/')[1];
 
     if (first_dir == 'category') {
-      first_dir = window.location.pathname.split('/')[2];
+      first_dir += '/' + window.location.pathname.split('/')[2];
     }
+
+    var url = window.location.protocol + "//" + window.location.host + "/" + first_dir;
 
     if (a_href == window.location ||
         a_href == url || 
