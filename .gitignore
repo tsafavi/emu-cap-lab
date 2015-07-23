@@ -1,4 +1,6 @@
 .sass-cache
 *.scssc
 .DS_Store
+*.css.map
 usage-instructions-PRIVATE.txt
+*.private.txt
