@@ -10,8 +10,8 @@ function add_theme_scripts() {
   wp_enqueue_style( 'Lato', 'http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic' );
   wp_enqueue_style( 'style', get_stylesheet_uri() );
   wp_deregister_script( 'jquery' );
-  wp_register_script( 'jquery', get_template_directory_uri(). '/js/jquery.min.js' );
-  wp_enqueue_script( 'main', get_template_directory_uri() . '/js/main.js', array( 'jquery' ) );
+  wp_register_script( 'jquery', 'https://code.jquery.com/jquery-2.1.4.min.js' );
+  wp_enqueue_script( 'main', get_template_directory_uri() . '/js/main.min.js', array( 'jquery' ) );
 }
 
 /*
