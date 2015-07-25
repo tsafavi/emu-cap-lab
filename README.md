@@ -2,7 +2,7 @@
 
 ##Date
 
-  7/16/15
+  7/24/15
 
 ##Author
 
@@ -54,7 +54,9 @@
     <img class="size-thumbnail" src="hello.png" data-image-type="change-on-hover" />
 
   NOTE: if your images do not contain the data-image-type attribute with the
-  "change-on-hover" value, they will show up as normal images.
+  "change-on-hover" value, they will show up as normal images. Also note that you can
+  preview your images and other changes with the "Preview Changes" button in Edit mode
+  before you publish your post.
 
 ##Editing or deleting content
 
