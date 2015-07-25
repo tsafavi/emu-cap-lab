@@ -9,6 +9,7 @@
 <head>
   <meta charset="<?php bloginfo( 'charset' ); ?>">
   <meta name="viewport" content="width=device-width">
+  <link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/favicon.ico" />
   <?php if ( is_front_page() ) : ?>
   <title><?php bloginfo( 'title' ); ?></title>
   <?php else : ?>
