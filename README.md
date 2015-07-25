@@ -83,6 +83,17 @@
   You can find detailed documentation for using Contact Form 7 at
   [Contact Form 7's documentation page](http://contactform7.com/docs/).
 
+  You can prevent form spam with different methods. The first is with Akismet,
+  which is an installed spam filtering plugin. To use Akismet, follow the
+  [directions](http://contactform7.com/spam-filtering-with-akismet/) that
+  Contact Form 7 provides.
+
+  You can also use Honeypot, another installed spam filtering plugin. Honeypot 
+  adds another hidden field to your form. Humans won't fill out this field, 
+  but spam bots may - and if they do, the form won't be validated. To add
+  Honeypot functionality to your form, simply click the "Honeypot" button
+  in the form fields while making your form.
+
 ##Other
 
   To report issues, ask questions, or provide feedback, 
